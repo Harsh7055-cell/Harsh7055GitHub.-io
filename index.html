@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>हर्ष - Web Designer</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            text-align: center;
+            background: #f2f2f2;
+        }
+
+        header {
+            padding: 50px 20px;
+            background: #222;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        .skill {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            background: #eee;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>नमस्ते! मैं हर्ष हूँ 👋</h1>
+        <p>Web Designer सीख रहा हूँ</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            मैं गुरुग्राम में रहता हूँ।
+            मैं Web Designing सीख रहा हूँ
+            और अच्छी वेबसाइट बनाना चाहता हूँ।
+        </p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+
+        <p>📞 7055764232</p>
+
+        <button onclick="contact()">
+            Contact Me
+        </button>
+    </section>
+
+    <script>
+        function contact() {
+            alert("हर्ष से संपर्क करने के लिए धन्यवाद!");
+        }
+    </script>
+
+</body>
+</html>
